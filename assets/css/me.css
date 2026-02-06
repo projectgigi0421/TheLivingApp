@@ -122,7 +122,7 @@ body.page-template-page-fullsingle-me {
   @media (max-width: 500px) {
     .fs-me {
       padding: 5vh 5vw;
-      text-align: center; } }
+      text-align: left; } }
   .fs-me .me-content {
     height: 100vh;
     display: -webkit-box;
@@ -153,8 +153,8 @@ body.page-template-page-fullsingle-me {
           animation: fadein 2s; }
   @media (max-width: 500px) {
     .logo {
-      -webkit-align-self: center;
-              align-self: center; } }
+      -webkit-align-self: left;
+              align-self: left; } }
   .logo img {
     max-width: 350px;
     height: auto;
@@ -171,9 +171,9 @@ body.page-template-page-fullsingle-me {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+          justify-content: left;
   -webkit-animation: fadein 4s;
           animation: fadein 4s;
   letter-spacing: -1px;
