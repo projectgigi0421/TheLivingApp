@@ -316,4 +316,11 @@ body.page-template-page-fullsingle-me.me-video {
   body.page-template-page-fullsingle-me.me-video .fs-me {
     background-color: rgb(255, 255, 255); }
 
-
+.dash-line {
+    display: block;
+    white-space: nowrap;   /* Prevents wrapping to the next line */
+    overflow: hidden;      /* Hides the dashes that go past the screen width */
+    text-overflow: clip;   /* Cuts them off at the edge */
+    color: #999999;
+    letter-spacing: 2px;   /* Optional: makes the dashes look more connected */
+}
